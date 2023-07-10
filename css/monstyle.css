@@ -1,0 +1,28 @@
+.decal50 {
+    padding-left: 50px;
+}
+.decal100 {
+    padding-left: 100px;
+}
+.couleur_menu {
+  background-color: rgb(179, 218, 209);
+}
+.couleur_login {
+  background-color: rgb(179, 218, 209);
+  font-size: 30px;
+}
+.message_erreur {
+  padding-left: 100px;
+  margin-top: 20px;
+  background-color: rgb(239, 7, 7);
+  color: azure;
+  font-size: 20px;
+}
+
+.message_reussite {
+  padding-left: 100px;
+  margin-top: 20px;
+  background-color: rgb(7, 239, 11);
+  color: azure;
+  font-size: 20px;
+}

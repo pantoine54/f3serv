@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Serveur de fichiers dans docker." />
+    <title>Serveur de fichiers</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css"
+      integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/monstyle.css" />
+  </head>
+  <body>
+    <div class="pure-g couleur_login">Serveur de fichier</div>
+    <div>
+      <form
+        class="pure-form pure-form-stacked decal100"
+        method="post"
+        action="{{@BASE}}/login"
+      >
+        <fieldset>
+          <label for="stacked-email">Email</label>
+          <input type="text" id="login" name="login" placeholder="Login" />
+          <span class="pure-form-message">Champ obligatoire.</span>
+          <label for="stacked-password">Mot de passe</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Mot de passe"
+          />
+          <button type="submit" class="pure-button pure-button-primary">
+            Connexion
+          </button>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
