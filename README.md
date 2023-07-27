@@ -1,5 +1,21 @@
 # f3serv
 
+Ce projet est une démo pour présenter mes compétences en programmation.
+
+## Technologies utilisées
+
+- HTML
+- CSS
+- PHP
+
+## Installation
+
+1. Clonez ce dépôt : `git clone https://github.com/phantoine/f3serv
+2. Ouvrez index.php dans votre navigateur.
+
+## Auteur
+
+Philippe ANTOINE - phantoine@etik.com
 Mini serveur de fichier écrit avec Fat Free Framework et pure Css
 Ce serveur permet de charger un fichier dans le répertoire files (menu Télécharger) et permet de le récupérer sur une autre machine (menu Fichiers) en cliquanr sur le nom du fichier. Il est possible également de le supprimer du répertoire "files" une fois le téléchargment réalisé.
 
