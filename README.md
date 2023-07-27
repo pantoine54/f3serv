@@ -1,6 +1,6 @@
 # f3serv
 
-Ce projet est une démo pour présenter mes compétences en programmation.
+Mini serveur de chargement et téléchargement de fichier 
 
 ## Technologies utilisées
 
