@@ -31,4 +31,4 @@ Le fichier putuse.php permet de modifier le mot de passe qui est codé en md5 da
 
 Par défaut le login est "admin" et le mot de passe est "123". Il suffit de modifier le fichier putuse.php en modifiant le mot de passe et de lancer putuse.php.
 
-![Image](doc_serveur.jpg "image")
+<img src="doc_serveur.jpg" alt="drawing" width="900"/>
