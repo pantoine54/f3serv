@@ -5,8 +5,8 @@ Mini serveur de chargement et téléchargement de fichier
 ## Technologies utilisées
 
 - HTML
-- CSS
-- PHP
+- CSS avec Pure Css (https://purecss.io/)
+- PHP avec le framework Fat Free Framework (https://fatfreeframework.com/)
 
 ## Installation
 
