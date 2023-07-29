@@ -31,4 +31,17 @@ Le fichier putuse.php permet de modifier le mot de passe qui est codé en md5 da
 
 Par défaut le login est "admin" et le mot de passe est "123". Il suffit de modifier le fichier putuse.php en modifiant le mot de passe et de lancer putuse.php.
 
+## Utilisation dans un conteneur Docker
+
+Utiliser le fichier dockerfile pour créer une image docker:
+
+_docker build -t f3serv ._
+
+Le nom de l'image s'appelle f3serv
+Pour créer un conteneur et lancer le serveur sur le port 8085:
+
+_docker run -p 8085:8085 f3serv_
+
+Le serveur fonctionne localement en lançant **http://localhost:8085**
+
 <img src="doc_serveur.jpg" alt="drawing" width="900"/>
