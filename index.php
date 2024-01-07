@@ -27,7 +27,7 @@ $f3->route(
             echo Template::instance()->render('templates/index.html');
 
         } else {
-            $f3->reroute("/");
+            echo Template::instance()->render('templates/login.html');
         }
     }
 );
