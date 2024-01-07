@@ -95,7 +95,10 @@ $f3->route(
                 if ($nfich['name'] != "") {
                     move_uploaded_file($nfich['tmp_name'], "files/" . $nfich["name"]);
                     $f3->set('SESSION.message', array('texte' => 'Le fichier a été chargé', 'style' => 'message_reussite'));
-                    $f3->reroute('/fichiers');
+                    $arbo = $f3->get('arbo');
+                    $fileList = $arbo->charge();
+                    $f3->set('files', $fileList);
+                    echo Template::instance()->render('templates/listfich.html');
                 } else {
                     $f3->set('SESSION.message', array('texte' => 'Pas de fichier choisi', 'style' => 'message_erreur'));
                     echo Template::instance()->render('templates/telecharger.html');
